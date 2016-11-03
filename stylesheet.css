@@ -1,0 +1,304 @@
+* {
+	font-family:'Source Sans Pro';
+}
+
+
+
+#header {
+	background : url(images/fond1.jpg) center center no-repeat;
+	padding-top:-10px;
+	font-size:12px;
+
+}
+
+.navbar-custom-come {
+	border-radius: 0px 0px;
+	line-height: normal;
+}
+
+.LaBelleBox {
+	font-size: 22px;
+	color:Black;
+
+}
+
+
+.btn-navbar {
+	text-transform: uppercase;
+	font-size: 13px;
+	background-color: #01C3A7;
+	border:none;
+	font-weight: 600;
+	width : inherit;
+	margin: 5px 5px 0 5px;
+	letter-spacing: 0.3px;
+	height:30px;
+	padding: 0 20px;
+	text-align: center;
+}
+
+.je-mabonne {
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	width : 110%;
+	background-color: white;
+	color:black;
+	border-color: #01C3A7;
+	border-width: 2px;
+}
+
+.btn-creer-compte:hover,
+.btn-se-connecter:hover,
+.je-mabonne:hover,
+.j-offre:hover
+{
+	background-color: #019D86;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family:'Source Sans Pro';
+	font-weight: 600;
+	text-shadow: 2px 2px red;
+
+}
+
+.sous-titre {
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	font-family:'Source Sans Pro';
+	font-weight: 300;
+	letter-spacing: 0.5px;
+	text-shadow: 2px 2px red;
+}
+
+.choix-box {
+	padding:20px 0 0 44px;
+	font-size: 20px;
+	color: dark;
+	font-family:'Source Sans Pro';
+	font-weight: 500;
+	letter-spacing: 0.5px;
+}
+
+.choisissez-vins,
+.texte-page-initiale,
+.choisissez-fromages,
+.choisissez-charcuteries,
+.choisissez-duree-abonnement
+ {
+	padding: 0 0;
+	font-size: 20px;
+	color: dark;
+	font-family:'Source Sans Pro';
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	text-align: center;
+
+}
+
+.formulaire-entree,
+.resultats-box
+{
+	border-radius: 5px;
+	background-color: white;
+	margin: 5px 5px;
+	height : 400px;
+}
+
+.resultats-page-initiale,
+.resultats-nombre-vins,
+.resultats-nombre-fromages,
+.resultats-nombre-charcuteries,
+.resultats-duree-abonnement
+ {
+	border-radius: 5px;
+	background-color: white;
+	height : 400px;
+	left:0px;
+	width:100%;
+}
+
+
+.resultats-page-initiale,
+.resultats-nombre-vins,
+.resultats-nombre-fromages,
+.resultats-nombre-charcuteries,
+.resultats-duree-abonnement
+ {
+	padding-top : 140px;
+	position:absolute;
+}
+
+.resultats-page-initiale {
+	z-index:5;
+}
+
+.resultats-nombre-vins {
+	z-index:4;
+}
+
+.resultats-nombre-fromages {
+	z-index:3;
+}
+
+.resultats-nombre-charcuteries {
+	z-index:2;
+}
+
+.resultats-duree-abonnement {
+	z-index:1;
+}
+
+.liste-icones-vins,
+.liste-icones-fromages,
+.liste-icones-charcuteries
+ {
+	letter-spacing: 20px;
+	padding-left: 15px;
+}
+
+
+
+
+#nombre-vins,
+#nombre-fromages,
+#nombre-charcuteries,
+#duree-abonnement
+ {
+	background-color: #FBFBFD;
+	color: black;
+}
+
+
+
+#nombre-vins {
+	 border-radius: 0px 5px 0px 0px;
+	 height: 50px;
+}
+
+#nombre-fromages {
+	 border-radius: 0px 0px 0px 0px;
+	 height: 50px;
+}
+
+#nombre-charcuteries {
+	 border-radius: 0px 0px 5px 0px;
+	 height: 50px;
+}
+
+#duree-abonnement {
+	border-radius: 0px 5px 5px 0px;
+	height: 50px;
+}
+
+
+#wine-icon {
+	border-radius: 5px 0 0 0;
+}
+
+#cheese-icon {
+	border-radius: 0 0;
+}
+
+#ham-icon {
+	border-radius: 0 0 0 5px;
+}
+
+
+.je-mabonne {
+	text-transform: uppercase;
+	font-size: 13px;
+	background-color: white;
+	border-color: #01C3A7;
+	border-width: 2px;
+	font-weight: 600;
+	color:black;
+	letter-spacing: 0.3px;
+	height:40px;
+	width:auto;
+}
+
+.j-offre {
+	text-transform: uppercase;
+	font-size: 13px;
+	background-color: #E53935;
+	border:none;
+	font-weight: 600;
+	letter-spacing: 0.3px;
+	height:40px;
+	width:120%;
+	text-align: center;
+}
+
+.texte-debut-2e-page {
+	border-radius: 5px;
+	background-color: white;
+	margin: 5px 5px;
+	height : 55px;
+	position : relative;
+	text-align: center;
+	color:#8C8A8C;
+	font-size:20px;
+	margin-top: -50px;
+	padding-top: 10px;
+}
+
+
+
+.logo1,
+.logo2,
+.logo3,
+.logo4 {
+	padding-left: 35px;
+}
+
+.titre-3e-partie {
+	text-align: center;
+	color: #22314D;
+	font-family:'Source Sans Pro';
+	font-weight: 700;
+	font-size: 36px;
+	padding-top : 85px;
+}
+
+.sous-titre-3e-partie {
+	color: #8C8A8C;
+	text-align: center;
+	font-family:'Source Sans Pro';
+	font-size: 19px;
+	padding-bottom: 50px;
+	font-weight: normal;
+	line-height: 25px;
+}
+
+.image1 {
+	padding:0;
+}
+
+.texte-n1 {
+	text-align: left;
+	color: #22314D;
+	font-family:'Source Sans Pro';
+	font-weight: 700;
+	font-size: 36px;
+	margin: 0 50px;
+}
+
+.sous-texte-n1 {
+	color: #8C8A8C;
+	text-align: left;
+	font-family:'Source Sans Pro';
+	font-size: 19px;
+	padding-top: 20px;
+	font-weight: normal;
+	line-height: 35px;
+	margin: 0 50px;
+}
+
+.image-texte-1 {
+	background-color: #F5F6F7;
+}
