@@ -55,6 +55,8 @@
         </div>
       </div>
 
+
+
       <div id="header">
         <br> </br>
 
@@ -62,7 +64,7 @@
         <p class="sous-titre">Profitez des spécialités du terroire français. Elle est pas belle la vie ? </p>
 
 
-        <div class="container">
+        <div class="container-fluid">
           <div class="row row2">
             <div class="col-sm-1">  </div>
             <div class="col-sm-5">
@@ -72,15 +74,12 @@
                   <label for="example-text-input" class="col-md-1 col-form-label"></label>
                   <div class="col-md-10">
                     <div class="input-group case1">
-                      <span class="input-group-addon" id="wine-icon"><img src="https://maxcdn.icons8.com/Color/PNG/24/Food/wine_glass-24.png" title="Wine Glass" width="24"></span>
                       <input class="form-control" type="text" placeholder="Saisissez le nombre de bouteille(s) de vin..." id="nombre-vins">
                     </div>
                     <div class="input-group case2">
-                      <span class="input-group-addon" id="cheese-icon"><img src="https://maxcdn.icons8.com/Color/PNG/24/Food/cheese-24.png" title="Cheese" width="24"></span>
                       <input class="form-control" type="text" placeholder="Saisissez le nombre de fromage(s)..." id="nombre-fromages">
                     </div>
                     <div class="input-group case3">
-                      <span class="input-group-addon" id="ham-icon"><img src="https://maxcdn.icons8.com/Color/PNG/24/Food/jamon-24.png" title="Jamon" width="24"></span>
                       <input class="form-control" type="text" placeholder="Saisissez le nombre de charcuterie(s)..." id="nombre-charcuteries">
                     </div>
                   </div>
@@ -90,7 +89,6 @@
                   <label for="example-text-input" class="col-md-1 col-form-label"></label>
                   <div class="col-md-10">
                     <div class="input-group case1">
-                      <span class="input-group-addon" id="clock-icon"><img src="https://maxcdn.icons8.com/Color/PNG/24/Time_And_Date/alarm_clock-24.png" title="Alarm Clock" width="24"></span>
                       <input class="form-control" type="text" placeholder="Saisissez la durée de l'abonnement..." id="duree-abonnement">
                     </div>
                   </div>
@@ -106,13 +104,34 @@
                     <button type="button" class="btn btn-primary j-offre">J'offre !</button>
                   </div>
                 </div>
-
               </div>
             </div>
+
+
             <div class="col-sm-5 resultats-box">
               <div class="col-sm5 resultats-page-initiale">
-                <p class="texte-page-initiale">blablabla</p>
-                <p class="texte-page-initiale">vive la box !</p>
+                <p class="texte-page-initiale">Les petits plus de La Belle Box</p>
+                <div class="petit-plus-1">
+                  <img class="icon icons8-Price-Tag" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAEYUlEQVRoQ8WaMWwUVxBAZ+6vG0QIBUUkJDj7UoQqJ1Ekiu6waUhKOxIoQj5hNwgasCko3MRIkQsaDihANLblSxQJEUwDiig46y4SFIGjggIfGyQkCgqob3cHzb9b57z2sn///u9z6Zs/O+/Pn9n5M4tg6C///S95IcQo5XJFJCoSYh4B8v3qCcBFIpcQWxgELd/319zHf7omTMAsStj4nOOcAsSpqNGqehkOiKqB593LAqUFkv/hZDEnxHkEmFI1WEWOAJaCTueSDlAqkPzY1N6c718xDRCFlEBCzLr1pQ8qG8AyyiCFcmWKABhir6ryLHIE8AGBptcbtVUVPUogI+XKom0vxBlLANV2Y2U2CeazIHyUhOfdBcSxJEVWfyeq+44z8bmjFgsi48HzHiFi0aqRisqJqBU4ztE4mFiQQmny0cA9sSULUH29WTu6Hfu2IIOMiSQHEdHVdrM2E5XbAsLZCQAWkxQO9neaiGazTSC998TrnUqxupvBqTkQYrg/XjaBFMqTSwB4SvcBO7uOltcbtY3KYgOEyw4hxDMbxuz/ah/8/FMpUfXLV2/gYfNpolwo4Hc6w2E5swFiyxuHvj4ANxdm4M6DRqKB08d/hDNzVXjSepko2xX43ysSRJbgQ0OvFVcri4UQbNyLV28S152bnpAy1xbvJspGvSJBRkqT84j4q/JqBcEkiO+K38CNhW4WPdvzgg4IBTDb/mel2gUpVzhTbboEKdgaK5IEwQuf3b8JJ88tSB189EZPXAAtEAC33VgZRtPHSgXCJAjr4qBHky9AVQh+OB+ty3OnpUcuLtySAa7jkd6xmMaR0mQVEc9nOUq8Ng1E3LN0QbhswUKpUgeE0SwgJiD4+bogQLCGWQPdFEQWENmdKZQrpOsNkxBZQHitNohpiFAfp+S3796n3lstEFsQqhXAdpRaIByUe3bvgt+u/55656ILTG0Kp18XEQ+mseiL3bvgj2tzsHj7b/hLoRiM020Kgoj+006/WWFMQchNkuk3wwtRF8YoBHPIF2LGO3paGNMQGyWKiaJRFcYSRLdolGW8RsBHAzgJxhYEB3q7WeNZjLmLVRyMLQgZ5/0XKxPHK/RQFMYmRHgX4QaEleZDCPP46Qs4duSwbCio3NnTvMu6spHmA//LdDuIYbgr8rDxryWI7s1wSzuIYWy1hNLvtMqKmAad9IocrXkuAn6pompQMgT0MRBOPrZl2vPKOACqN5YGQpPQxA5tylK22OZSHiuEhpi4yxuHIlhbb65sOwZMGr3VEfFb4wZpKCSi54HjjKUevYXBLzx/NWuXRcPuzUsI1nxHjGsNQ/s1DTJm4mIiujlKc/Ywm/EXCTuVmjnF8mzf6AcDIb2cu/te1f5Ui5Z94cxY+YSj35XdItOZNw9Ey37Hm7f+UU30XMrPnMTQOCDNpG1ghLr4PgGE1cDvrOoAhHqUYyQp8/SuAmNEVETAIgHlo3Cy2wHoElALEVt+p1PPYny/TZ8AxFCG3BRdBkYAAAAASUVORK5CYII=" width="40" height="40">
+                  <div class="petit-plus-texte-1">
+                    <p class="petit-plus-titre1"> Sans frais supplémentaires </p>
+                    <p class="petit-plus-sous-titre1"> Vous ne trouverez pas moins cher ailleurs. </p>
+                  </div>
+                </div>
+                <div class="petit-plus-2">
+                  <img class="icon icons8-Crowdfunding" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAHDElEQVRoQ91aa2xUVRD+Zu8uLIWFvoA0tLLd8jIW2BoTWmy18ggqUWh4hEc3FE0QxEhr8I8aASX4RwRMJBiNbbU8ohiQSJQfhCIVNCBdpASwLSy2NFLaUijs0u7dPebcdh93u4977xYknj+7e3fOnPlm5syZmXMJAzDMhSWJgts9jxGZCSjs+zQHs2aAgxhzMKCaf3oMhh8c1RWd8S5PWhlwoXWiuAJACRFZtfBhjNkBVHj1+kqtYFQDMOcuMesMhnWS4ECiFsFD5zCAW6LC63bvcPy2z6GGpyoAlvziDSAqHSjBwwJhbPuVmqpNSkEoAmCevsyq0+nKtbqKUmF8dNy1vKJYpMQaMQFkFdhKGLDtQWk9EjjuVgSUNZ74piKaAqIC4MIDKFerwQGmXxkNREQAj4jwPl1EBBEWwCMmfB8IVtR4oupgqHX7AZA2rCAce9g+H8vt+J7wut05oRu7HwBLfnFtrGjDDAlg2S+CJaWD3C7Q2f2ge+2xZIj6P+dJbmd0GsbsV2qqcoKJZAAs+cUbiWhDLEm8OQuBSTP8ZKyjCcKRj2JNC/s/S0yHd5oNlJwB1uOE7sTnoNb6iLwYY5uu1FRt9BH4AfSdsLVKXMe74GNgUIJsEdq/PqYGw0nlKVgNSp8SUEaPE8L36yMDCHElPwBLfvF2IuIpQswRuqjg6Qb7tizmvHAE3qU7+z2OpYxgK0gApMTM47mqRPucnpudFbwGDEuBgfVgYVorzhyoQKOjRTWIsYvexlV9ZsACt5oh/Lwl+l7gVhCETJ4ASgAsT9tKSYdtaldno8bD6LyJtbZZSE40YWf5IbT80w7dYAZTlgjTOFH6zoezSUBXox7dNwXpt9E4GEvnFyJrwjhsPU1oTzCDtTZAd/5HUGezElGks6EXgILIE40jF+b1lS9JIL44vgeDc9oh9AkeOq+rQY+O6uFYvWwexqSlYu+BYzhjv6xEYBkNz5d4RCKpGPF4bqnmEDKBg5i9Kh0Nep7iB0bKkFS4RCecQSHS5E3G84MX4cvKI5LFtA6PICTRQJ26piw30ufd7yfLkomLcfnWX6htlQMTbxhRv9ugVfa+eayI1ESfaKtlvXoXg0b0+jsfCYYErH/qLTxmypB+/9pyEuV1lTIW148YceeCdhA8GlFWvq0ahGfjUUVCuoixi10yFrPGzgTX/pvHymAdacUr2Suk78GudKdBj+uHhmhfmuE4WQpsPHzKCnC1HFPzujEyrycsgK/qKmG/aUeGKQNNXU0yAHzCxU9Mapfz00uNgqwCW8DuGlmFA8BZcQtwS7S52vCZfZcEIHTEA4DzeqAA+AI8Cr1hXYMUY7LkQv85AH544V6HLPscn2eCPk9+Cq/MLkGGKR0fnNqMnFFWrLWuwaZTm2VWiHsPqLGAlDUWrAINS5WUaPhjL6Ynd+KZ3MlIThqO3Z274KIuv4J9Qv/d1YRUYwra73dg06kPBzQKSS5kyS92ENHYWO4fmsBx+i3jL6ChvhFnai/hmru+3znA3af3HLiMky2nZBs4iVJx53Aa6i6pagPJxGSMXVMcRj0zy0DcfYLGiJod6GoKpAFpc1xIfEKU0UxMnog2VzvaXW3+555uwgy2AONHZ2pOJSRmUhhVmEZ7s+cCk+cGQliErDHpyR6MzO2GYAxv03tNApoPDcEgMmJJ0XOYPMmM07WXseciAQajVMxEK2iCufYeZCpaJxwEGz0B6HFBd/a7iGUkz0Bn27Jwd+gNNLXclNZ03yHcvmCAs1kvQ7ZkfiF+T5mLRudQ/3P6ZRfo+p+xvJqboGjAkrnQ1d4tXY5Gx3XsO1gdVRCptnjhHblvt9ZDOBo7u5eSOT7Tkl9sJ6KpCiArIklKNOG9suWK/JsNTQF7WR6dmAIAjLFzV2qqrHEVNJHQPD4tH8vnTMXWT7/Grc5AaI1Ez4t6WPICLnR0m5J9EChoektK0UGgEYpUHIGIt0a8M9ZJHQZpnD8MXd1hRSzZmClgw1JBzeditmgY2G2voDf7S8o+N1Jc1EfUZEi7hdPRT1uUloiKgErRM6i1EtJW0dvjsUK4s4KUuYNy4bn23aLV16HT1NiKaIHMPCDXFvi7xwk69L6mflGkNSI2tnwT4o1I3okzwNKn9p4VyjsMiizgizzBxBGau7rqeFxJkTQqiaSNG+Q6vun/v/a6D5maFEOlMrWQq7vgeMRAaLtiCoAons+Aioe9J7jPE1AS7lYm6iYOZ1+p9a7XHxzIfCmaH/Fo4xXF+QNyzRq8EL8AAaH0QVmDax0M/KLbf4ERa8PEvCcOZdBnjVIQf9UgvtzJx9snuFcUK5RoXbULhXUrngC6PSUgxl/20JSKc1chou0eQTj40F72iARG8IiFjMFKoEIGZg5tFEgFOMjBwKqJYPcI+mqtQgfL8C99Sw6nHD4SgwAAAABJRU5ErkJggg==" width="40" height="40">
+                  <div class="petit-plus-texte-2">
+                    <p class="petit-plus-titre2"> Parrainage </p>
+                    <p class="petit-plus-sous-titre2"> Vous et votre filleul(e) gagnez 5€. </p>
+                  </div>
+                </div>
+                <div class="petit-plus-3">
+                  <img class="icon icons8-Bank-Cards-Filled" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAE+ElEQVRoQ9VaTWwbVRCe8W4O/PfAgQOiTlyk5IR7oVVlU/dUOCAloCLU2tRG4sChacIFlUYiiD9xwi1HhJIQg5AqaBAHqDjUwUZqkVDNpamUxHWilkZqDuWvF+/uoHn2Bmfrt/vs3XXMkywf9u3M9715M29m3iIENKL7X45qmnaQIpE4EsUJMYoA0VbxBFBDohohVtCyKqZpLtYufVULAgL6EcLgI7p+HBCzTtCqcpkcEOUtw/jWD6muiEQPHI1HNO0kAmRVAavMI4BZq15/pxtCHRGJprK7Iqb5cdAEnCQFIU2brBVn76gsAM9RJhJLZrIEwCR2qQr3M48A7iBQbrVUWFCRo0RkKJmZCdsKMrAEkK+W5ie9yLgS4a2kGcZ5QEx5CQr1OVHR1PUxt60mJSL8wTAuImI8VJCKwomoYun6IRkZKZFYIn1xxy1xTxSg4mq5cKgd97ZEdtInvAxERGeq5cKEc949RDg6AcCMc+LDD94Pw3ue8NLj+/nvG5twY2PTQw6NOaPZNiLNc+K6M8TmjhyG0yeO+QapKmDm3AV4/5MvpNM5NFuaNtjqL9uIxJLpWQA83iph5Mnd8N1n76piCGzemx9+Cl9/X3KRR3OrpcJWZrFFhNMOTdOuON8cz40B/3o9zs6cB/65DbNeH7TTmS0i7azBQvqZCMB/VhFERAo+MHC9HfsXn0sC/3o9eFu5b60GItsqgshQIj2NiG/3GmwQ+siCyerP8/kGkWSGI9W2IigIJb2QwfVMtTQ/iG7bqhdAgtDB2wtlB6CtgP3jhWcTQejrSMY3P5SVfKQpNIdDiXQeEU/KtPR31Gqg5rQFY4lMERAOdkLkl8o1uHRlSXmFuzmHVM6RLQAEi+jl6O0s0pESAFj56XNl0vbETnSI7kwsmSE3Lf+HrcX4+54IZ91//n3X06J9T2Tf3hG4rOCPfU+ESwhO670Gh98aIu7uJGp5CQ3iue3sUyeOwXsutUkz/K51FX6DAOolwyby5dm34Oj4B+7TRfjt8wORQ/eeZ15xJdI4ECU1uv3mTlaIV1fWRXWaeukNrzo+p5Q09rpmnz13QfgF+0f2yGF4/fQZ+LH0q9QqImnkp14Oz3M4nrN1wh43b90Wq8/J6kenXhPq3E55Ilqrlgt8F6NeWDGRhx64L1Qu+/eOwL74MPD5YQ+3RsS2wkq1JuEI8nR8OFQiTuFLK+vw/KtTrtuKGxCezYdWCfaeDZsJg7+5sSn8gn/yFMXRfGBgsnZQK+jWfRsEmb/+uQtLy+uiJGDg7Bsq6Yitu207iB/KWkJBhGKuYRjojVu34XLlGiwtryklg/IFkzTohFXE1ZpRQ8BHZAK8/IRXlrfG1eU18c/gGXSQg4D+sDQ9Km2ZNq0yCoDSFh+H4anxNDz+2KMCGwNm8Hx4dbIt/BHzaGLbwr3SFn8g/L2tfK1gq/Gq5f3B6fJtgsXV8nzba0Cvq7ciIj7VpdpAXyOi3yxdT3V89WY7v2aYC25dlkDRyoQRLJq6NtrVZWirzJ30GZlPODkr3bPb0Yy/SHALzUFah0Ms3+0H+sGADVDcu5tG3nmrFSSBhiyaMzV9IpRPOFrBNpJMfTp4QjRn1o3p0D+qca68+MxJGxgFpAm3BoabxbieAMK8ZdYXuiFgy1b2Ea/t0ywFUkQUR8A4AUWd5Bg0AtYIqIKIFbNeL/oB34rpX0Abg9zaD4rsAAAAAElFTkSuQmCC" width="40" height="40">
+                  <div class="petit-plus-texte-3">
+                    <p class="petit-plus-titre3"> Payez comme vous souhaitez </p>
+                    <p class="petit-plus-sous-titre3"> Nous acceptons les CB et les chèques. </p>
+                  </div>
+                </div>
               </div>
               <div class=" col-sm5 resultats-nombre-vins">
                 <div class="form-group row">
@@ -122,20 +141,19 @@
                   <div class="col-md-4"></div>
                   <div class="col-md-5">
                     <div class="btn-group" role="group">
-                      <button type="button" class="btn btn-secondary">0</button>
-                      <button type="button" class="btn btn-secondary">1</button>
-                      <button type="button" class="btn btn-secondary">2</button>
-                      <button type="button" class="btn btn-secondary">3</button>
+                      <button type="button" class="btn btn-secondary bouton-vin-0">0</button>
+                      <button type="button" class="btn btn-secondary bouton-vin-1">1</button>
+                      <button type="button" class="btn btn-secondary bouton-vin-2">2</button>
+                      <button type="button" class="btn btn-secondary bouton-vin-3">3</button>
                     </div>
                   </div>
                 </div>
                 <div class="form-group row">
                   <div class="col-md-4"></div>
                   <div class="col-md-5 liste-icones-vins">
-                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/wine_glass-24.png" title="Wine Glass" width="24" class"vin1"></span>
-                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/wine_glass-24.png" title="Wine Glass" width="24" class"vin2"></span>
-                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/wine_glass-24.png" title="Wine Glass" width="24" class"vin3"></span>
-                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/wine_glass-24.png" title="Wine Glass" width="24" class"vin4"></span>
+                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/wine_glass-24.png" title="Wine Glass" width="24" class="vin1"></span>
+                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/wine_glass-24.png" title="Wine Glass" width="24" class="vin2"></span>
+                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/wine_glass-24.png" title="Wine Glass" width="24" class="vin3"></span>
                   </div>
                 </div>
               </div>
@@ -148,20 +166,19 @@
                   <div class="col-md-4"></div>
                   <div class="col-md-5">
                     <div class="btn-group" role="group">
-                      <button type="button" class="btn btn-secondary">0</button>
-                      <button type="button" class="btn btn-secondary">1</button>
-                      <button type="button" class="btn btn-secondary">2</button>
-                      <button type="button" class="btn btn-secondary">3</button>
+                      <button type="button" class="btn btn-secondary bouton-fromage-0">0</button>
+                      <button type="button" class="btn btn-secondary bouton-fromage-1">1</button>
+                      <button type="button" class="btn btn-secondary bouton-fromage-2">2</button>
+                      <button type="button" class="btn btn-secondary bouton-fromage-3">3</button>
                     </div>
                   </div>
                 </div>
                 <div class="form-group row">
                   <div class="col-md-4"></div>
                   <div class="col-md-5 liste-icones-fromages">
-                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/cheese-24.png" title="Cheese" width="24">
-                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/cheese-24.png" title="Cheese" width="24">
-                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/cheese-24.png" title="Cheese" width="24">
-                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/cheese-24.png" title="Cheese" width="24">
+                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/cheese-24.png" title="Cheese" width="24" class="fromage1">
+                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/cheese-24.png" title="Cheese" width="24" class="fromage2">
+                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/cheese-24.png" title="Cheese" width="24" class="fromage3">
                   </div>
                 </div>
               </div>
@@ -174,20 +191,19 @@
                   <div class="col-md-4"></div>
                   <div class="col-md-5">
                     <div class="btn-group" role="group">
-                      <button type="button" class="btn btn-secondary">0</button>
-                      <button type="button" class="btn btn-secondary">1</button>
-                      <button type="button" class="btn btn-secondary">2</button>
-                      <button type="button" class="btn btn-secondary">3</button>
+                      <button type="button" class="btn btn-secondary bouton-charcuterie-0">0</button>
+                      <button type="button" class="btn btn-secondary bouton-charcuterie-1">1</button>
+                      <button type="button" class="btn btn-secondary bouton-charcuterie-2">2</button>
+                      <button type="button" class="btn btn-secondary bouton-charcuterie-3">3</button>
                     </div>
                   </div>
                 </div>
                 <div class="form-group row">
                   <div class="col-md-4"></div>
                   <div class="col-md-5 liste-icones-charcuteries">
-                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/jamon-24.png" title="Jamon" width="24">
-                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/jamon-24.png" title="Jamon" width="24">
-                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/jamon-24.png" title="Jamon" width="24">
-                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/jamon-24.png" title="Jamon" width="24">
+                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/jamon-24.png" title="Jamon" width="24" class="charcuterie1">
+                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/jamon-24.png" title="Jamon" width="24" class="charcuterie2">
+                    <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/jamon-24.png" title="Jamon" width="24" class="charcuterie3">
                   </div>
                 </div>
               </div>
@@ -199,11 +215,17 @@
                 <div class="form-group row">
                   <div class="col-md-2"></div>
                   <div class="col-md-9">
-                    <div class="btn-group" role="group">
-                      <button type="button" class="btn btn-secondary">1 mois</button>
-                      <button type="button" class="btn btn-secondary">3 mois</button>
-                      <button type="button" class="btn btn-secondary">6 mois</button>
-                      <button type="button" class="btn btn-secondary">12 mois</button>
+                    <div class="btn-group boutons-1-3-6-12-mois" role="group">
+                      <button type="button" class="btn btn-secondary bouton-mois-1">1 mois</button>
+                      <button type="button" class="btn btn-secondary bouton-mois-3">3 mois</button>
+                      <button type="button" class="btn btn-secondary bouton-mois-6">6 mois</button>
+                      <button type="button" class="btn btn-secondary bouton-mois-12">12 mois</button>
+                    </div>
+                    <div class="mois-blague">
+                      <p class="un-mois">Juste envie d'essayer ?</p>
+                      <p class="trois-mois">Bientôt le plus beau trimestre de votre vie...</p>
+                      <p class="six-mois">Oh vous vous êtes fan de l'apéro !</p>
+                      <p class="douze-mois">Waouh ! On vous aime beaucoup trop :-)</p>
                     </div>
                   </div>
                 </div>
@@ -243,21 +265,115 @@
 
       <div class="container-fluid">
         <div class="row image-texte-1">
-          <div class="col-md-6 image1">
-            <img src="images/cochon-vache.jpg" class="img-fluid" alt="Responsive image" align="left">
-          </div>
-          <div class="col-md-6">
+          <div class="col-md-6 image1"></div>
+          <div class="col-md-6 texte1">
             <h3 class="texte-n1">Authentique.</h3>
             <p class="sous-texte-n1">Tous nos produits sont dénichés par nos soins auprès de petits producteur français. Nous croyons au terroir français et voulons le mettre en valeur. Grâce à vous ;-)</p>
+          </div>
+        </div>
+        <div class="row image-texte-2">
+          <div class="col-md-6 texte2">
+            <h3 class="texte-n2">Suuuper bon !</h3>
+            <p class="sous-texte-n2">Les produits que nous vous proposons avec amour ont été validés unanimement par notre chouette équipe, composée notamment d'un grand oenologue. C'est lui qui nous conseille sur les accords mets et vins. C'est la moindre des choses, non ? </p>
+          </div>
+          <div class="col-md-6 image2"></div>
+        </div>
+        <div class="row image-texte-3">
+          <div class="col-md-6 image3"></div>
+          <div class="col-md-6 texte3">
+            <h3 class="texte-n3">Sans baratin.</h3>
+            <p class="sous-texte-n3">Nous vous conseillons sur les meilleurs accords mets et vins pour un apéro convivial et pédagogique ! Mais sans baratin, car on préfère la simplicité. Pas vous ?</p>
 
           </div>
         </div>
       </div>
 
+      <div class="container-fluid">
+        <div class="row comment-ca-marche">
+          <p class="ccm-titre">Comment ça marche?</p>
+          <div class="col-md-2"></div>
+          <div class="col-md-2 colonne-choix-formule">
+            <img src="https://maxcdn.icons8.com/Color/PNG/48/Alphabet/1-48.png" title="1" width="48">
+            <p class="choix">Choix de la formule</p>
+            <img src="https://maxcdn.icons8.com/Color/PNG/96/Food/wine_glass-96.png" class="wine" title="Wine Glass" width="55">
+            <img src="https://maxcdn.icons8.com/Color/PNG/96/Food/cheese-96.png" title="Cheese" width="55">
+            <img src="https://maxcdn.icons8.com/Color/PNG/96/Food/jamon-96.png" title="Jamon" width="55">
+          </div>
+          <div class="col-md-2 colonne-paiement">
+            <img src="https://maxcdn.icons8.com/Color/PNG/48/Alphabet/2-48.png" title="2" width="48">
+            <p class="paiement">Paiement sécurisé</p>
+            <img src="https://maxcdn.icons8.com/Color/PNG/96/Security/password-96.png" class ="password" title="Password" width="70">
+          </div>
+          <div class="col-md-2 colonne-reception">
+            <img src="https://maxcdn.icons8.com/Color/PNG/48/Alphabet/3-48.png" title="3" width="48">
+            <p class="reception">Réception de la box</p>
+            <img src="https://maxcdn.icons8.com/Color/PNG/96/Messaging/mailbox_opened_flag_up-96.png" class="mailbox" title="Mailbox Opened Flag Up" width="70">
+          </div>
+          <div class="col-md-2 colonne-apero">
+            <img src="https://maxcdn.icons8.com/Color/PNG/48/Alphabet/4-48.png" title="4" width="48">
+            <p class="apero">Apéro entre amis !</p>
+            <img src="https://maxcdn.icons8.com/Color/PNG/96/Holidays/champagne-96.png" class="champagne" title="Champagne" width="70">
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row bandeau-bleu">
+          <p class="en-route-simone"> En route Simone !</p>
+          <p class="prenez-lapero">Arrêtez de vous prendre la tête. Prenez l'apéro, c'est beaucoup plus sympa.</p>
+          <button type="button" class="btn btn-primary je-mabonne2">Je m'abonne !</button>
+          <button type="button" class="btn btn-primary j-offre2">J'offre !</button>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row partie-twitter">
+          <p class="titre-twitter">Demandez conseil à nos supers clients.</>
+            <p class="sous-titre-twitter">Tout le marketing du monde ne remplacera jamais ce que nos utilisateurs disent de nous.</p>
+
+
+            <div class="avis-clients">
+              <div class="row">
+                <img class="icon icons8-Left" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAADrklEQVRoQ92azU7bQBDH/0NsWpUDeQOSB2jJtVITkjeAQ4l6IjwB8ASlT9DwBNATwhfoE5APIaReGtpbL5hzLyCVCkicqXYdBycQbK+/QiPl5N3Z+e3szOzsLiGq3+l+DtbMEvoogKgA5hwR5dzimdkEkQnmDmbQQabfxNsPZhQqUCghQvmetgbu18aV9it3AFeHZn0NA6UGcmIUYGGDCDW/Cvtpx4w96NYnFaBgIMeHWWS6n6MGGIeUQJa+hcrKpZ8JEG38g7QMMfsCIutXeJh2zLgEeB2l6pEfOf5AWsZu3FaYpCwz11GqbnnBPA0ilpLWPSSg7CUozu8MNNDTV55aapNBbIhjAgpxKulXNgMd9PTKJJjJIG1DQKRqiQdBQFimuFp5DP5xkBR9wstCDOyguLo53u4hSMuoEWHXS2Ca35l5ZTyajYLYeeI8qRCrOhkyNFt63u0voyCtgz0iWlMdIMl+zPwFpepwZ3EPcmIUqI/vSSoTdizWrLyznbkHeUbWcCbAbRUb5HQ/R73MedgZEv0XXrySYi5u/0YhzlOGYxUbpH2wTaCPnr08GizOZXH8uoyz60tUfjbCivPVn4m28O593QZpHZyr1hPOaA4EiSz6oyFhkvjJeqZUzVMUyyotiKGvaFaeEDIBpg0hYJixTmgbYn1tqCyDaYCQIMCOAGkQsBQUZFogBiBNUnH0aYKwlxabRG2Dg1hj2iAc3QOBOBBZTYd5ew3zJr6kt/7rW6CkGhik8aaM+YwuBzFvroMYM1DbWpwgQhNhFQHDDJm9k0p8XrMgopZJwIJXQ/f3aYNh4CJU+J0WyzDQDJ0QpwHGTogRbFHShrG3KBHUImn7jKhJBvVIcIcfDw5pwQhHR3E1F3lhJZZZ509ahVUEy8uxkCh1cy/n0Lz6HSSiK7cdLXXtKvHZHAUNCyrXkdB/eBz0zKwy+YBOgNhHpiYR5pUXbQIdmXEFS89NPjK1rbJMRIcJ6KM8hPchtiM6RB2vrJ3Pjv6vFe5hlGp5n/ooNRObQxRXH7188rh6u2sQaFFp1Ig7MfgMvdly8Ks3x/m17pHKKUuUHNISPX1Z7TLUrUmKPjPJJ8Ynyt89+yCaAbSXVGiWIRZci/bBgIMv88xdPe5bLZnsrNnNeJ5wuG0pXgV1Z7ajBpIAen87/kc14wtTvtHSlsG8GfQAY7jxE/UEUR2Z3pEKgCPHv494hSFppUwZJF9KiL8odkZOZ2QRBIiHZh0wOtCtRhjl3Sr9A5oo4JVxNa2IAAAAAElFTkSuQmCC" width="50" height="50">
+                <img class="icon icons8-Right" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAADq0lEQVRoQ92azU7bQBDH/0PiUkElcukZ59JbS06VKjUheQM4NFFPhCcAnqD0CRqegPSE8AX6BIREiGND+wCEN4ADVUvsTLVrDImJ8dfaLo2Uk9fj+c3szM7sLkHV73RPhzWzjBFKICqBWScifVw8Mw9ANABzHzPoIzc6xruPAxUqUCwhQnkzvwYeNd1KB5V7C9dC3voWByoayIlRgoUNIjSDKhxkHDPa0KzPUYDCgRwdFJAbflEN4IaUQJa2hdrqZRADiDHBQbqGsL6AKAQVHmccMy4BXkelcRhETjCQrrGbtBe8lGXmFiqNLT+Yx0HEVMoPDwio+glK8jkDHZja6mNTzRvEhjgioJSkkkFlM9CHqdW8YLxBeoaAyNQTD5KA8Ey5XpsGPx0kw5jw8xADOyjXN93jHoJ0jSYRdv0EZvmcmVfd2WwSxF4nztNKsVGNIVOzpRXH42USpLvfJqK1qB9I8z1m/opK466yuAc5MUo0wvc0lYn7Lc5bRaecuQd5Qt5wDDDuFRvkdE8nM3ce10JB3l+cnZPDLv78CjLcd4zjFRukt79NoE++bykYcPS6iqX5Amo/Ozi7DlwTen6Zibbw/kPLBunun0ftJ8KyCYjOmyqYoQRG9jOVRpHSnFYOtHKYvFUkZLQAqoRhxjqhZ4j5tRF2iqgYrwpGlC0CpEPAsgrFoshQAcPAMaUZ6F6gcWFEwBP1DI5iSdXvxIUJBSIWs91Xb1Uz3MnTn89Bn53HpTkMnZpDg7QTBZmHMNaVNUT1R7gFMxRIYq4A5GovVn0SbWlICKGXyFoDAhaTVNJPdlwIBi7+ifQbxxPCSHb6zXhBjAtxC7KTaYmiAkKCyBIlxV5kvGhUBSFBZNEo+5H0Aj5uYLsThwh0lOt6Jo1V6UUhUoqdlv0mG6sUp9fywksMfl8n1OraXeKT2QpyPPNw80E8+W+2g56YV7w36ASIvWU6IMKCX1mR5XNmXMHSdO8tU9srK0R0kKWift/238R2JGRYtvhCBD5WuIfJtJefumYAxyjXpx4++Ry93XQItORnpTSeM/gM5rNq+KM3J/jzw8Msd1mcMh2mthLtMHTczBnGjNdRm3sWBDtnv81mALXTSs0yxYKbai8MOPhynblpJX2qJRc769lmMlc4xn0pbgUNZ7ZVA0kAbbSd/KUa98SUd7TyK2DejLqBIfsJohZy5mEUAEel4DHil2Oll3JVkLwpIf6i2ZnYnZFKA+KiWR+MPjSrE0f5cZX+AhB03ZUaXIMbAAAAAElFTkSuQmCC" width="50" height="50">
+              </div>
+
+            </div>
+              <p id="contenu-avis-client"></p>
+              <p class="origine-avis-client"> Philippe, Paris </p>
 
 
 
 
+            <br></br>
+            <br></br>
+            <br></br>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row footer">
+          <div class="col-md-4 colonne-CGV">
+            <p class="CGVIL"> <a href link="https://www.trainline.fr/terms" class="CGV"> CGV</a> / <a href link="https://www.trainline.fr/legal-information" class="legal">Informations légales</a> </p>
+          </div>
+          <div class="col-md-4 colonne-apero">
+            <body onload="startTime()">
+
+              <div id="heure"></div>
+
+            </body>
+          </div>
+          <div class="col-md-4 colonne-logos">
+            <img src="https://maxcdn.icons8.com/Color/PNG/96/Food/wine_glass-96.png" class="wine" title="Wine Glass" width="40">
+            <img src="https://maxcdn.icons8.com/Color/PNG/96/Food/cheese-96.png" title="Cheese" width="40">
+            <img src="https://maxcdn.icons8.com/Color/PNG/96/Food/jamon-96.png" title="Jamon" width="40">
+          </div>
+        </div>
+      </div>
 
 
 

@@ -2,8 +2,6 @@
 	font-family:'Source Sans Pro';
 }
 
-
-
 #header {
 	background : url(images/fond1.jpg) center center no-repeat;
 	padding-top:-10px;
@@ -85,11 +83,10 @@ h1 {
 }
 
 .choisissez-vins,
-.texte-page-initiale,
 .choisissez-fromages,
 .choisissez-charcuteries,
 .choisissez-duree-abonnement
- {
+{
 	padding: 0 0;
 	font-size: 20px;
 	color: dark;
@@ -97,7 +94,102 @@ h1 {
 	font-weight: 500;
 	letter-spacing: 0.5px;
 	text-align: center;
+}
 
+#triangle1 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 15px 15px 15px 0;
+	border-color: transparent red transparent transparent;
+	display:inline-block;;
+	margin-left: -43.2%;
+	margin-top: 80px;
+}
+
+
+
+
+.boutons-1-3-6-12-mois {
+	padding-bottom: 20px;
+}
+
+.mois-blague {
+	text-align: center;
+	padding-right: 50px;
+}
+
+.un-mois,
+.trois-mois,
+.six-mois,
+.douze-mois {
+	padding: 0 0;
+	color: #41CDB9;
+	font-family:'Source Sans Pro';
+	font-weight: 600;
+	font-size:15px;
+	letter-spacing: 0.5px;
+	margin: 0px 0px;
+	display:none;
+}
+
+
+.vin1,
+.vin2,
+.vin3,
+.fromage1,
+.fromage2,
+.fromage3,
+.charcuterie1,
+.charcuterie2,
+.charcuterie3 {
+	display:inline-block;;
+}
+
+.texte-page-initiale {
+	padding: 15px 40px;
+	margin: -140px 0 30px 0;
+	font-size: 22px;
+	background-color: #233D5D;
+	color: white;
+	font-family:'Source Sans Pro';
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	text-align: left;
+	border-radius: 5px 5px 0 0;
+}
+
+.icons8-Price-Tag,
+.icons8-Crowdfunding,
+.icons8-Bank-Cards-Filled {
+	margin : -30px 20px 0 40px;
+}
+
+.petit-plus-2,
+.petit-plus-3 {
+	margin-top:35px;
+}
+
+.petit-plus-texte-1,
+.petit-plus-texte-2,
+.petit-plus-texte-3 {
+	display: inline-block;
+}
+
+.petit-plus-titre1,
+.petit-plus-titre2,
+.petit-plus-titre3 {
+	color: #41CDB9;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+
+.petit-plus-sous-titre1,
+.petit-plus-sous-titre2,
+.petit-plus-sous-titre3 {
+	font-size: 18px;
+	line-height: 20px;
 }
 
 .formulaire-entree,
@@ -109,26 +201,20 @@ h1 {
 	height : 400px;
 }
 
+
+
+
 .resultats-page-initiale,
 .resultats-nombre-vins,
 .resultats-nombre-fromages,
 .resultats-nombre-charcuteries,
 .resultats-duree-abonnement
- {
+{
 	border-radius: 5px;
 	background-color: white;
 	height : 400px;
 	left:0px;
 	width:100%;
-}
-
-
-.resultats-page-initiale,
-.resultats-nombre-vins,
-.resultats-nombre-fromages,
-.resultats-nombre-charcuteries,
-.resultats-duree-abonnement
- {
 	padding-top : 140px;
 	position:absolute;
 }
@@ -156,57 +242,93 @@ h1 {
 .liste-icones-vins,
 .liste-icones-fromages,
 .liste-icones-charcuteries
- {
+{
 	letter-spacing: 20px;
-	padding-left: 15px;
+	padding-left: 60px;
 }
 
 
 
 
-#nombre-vins,
-#nombre-fromages,
-#nombre-charcuteries,
-#duree-abonnement
- {
-	background-color: #FBFBFD;
+#nombre-vins {
 	color: black;
+	background:url(https://maxcdn.icons8.com/Color/PNG/24/Food/wine_glass-24.png) 15px center no-repeat;
+	background-color: #FAFAFD;
+	padding-left: 50px;
+	}
+
+#nombre-fromages {
+	color: black;
+	background:url(https://maxcdn.icons8.com/Color/PNG/24/Food/cheese-24.png) 15px center no-repeat;
+	background-color: #FAFAFD;
+	padding-left: 50px;
+}
+
+#nombre-charcuteries {
+	color: black;
+	background:url(https://maxcdn.icons8.com/Color/PNG/24/Food/jamon-24.png) 15px center no-repeat;
+	background-color: #FAFAFD;
+	padding-left: 50px;
+}
+
+#duree-abonnement
+{
+	color: black;
+	background:url(https://maxcdn.icons8.com/Color/PNG/24/Time_And_Date/alarm_clock-24.png) 15px center no-repeat;
+	background-color: #FAFAFD;
+	padding-left: 50px;
+}
+
+/*  quand on clique sur la case, on veut fond blanc et bordure verte  */
+#nombre-vins:focus,
+#nombre-fromages:focus,
+#nombre-charcuteries:focus,
+#duree-abonnement:focus {
+	background-color: white;
+	border-color: #01C3A7;
+	border-width: 1px;
+}
+
+/*  couleur du placeholder initial  */
+#nombre-vins::-webkit-input-placeholder,
+#nombre-fromages::-webkit-input-placeholder,
+#nombre-charcuteries::-webkit-input-placeholder,
+#duree-abonnement::-webkit-input-placeholder  {
+   color: #CACACA;
+}
+
+/*  couleur du placeholder quand on clique sur la case  */
+#nombre-vins:focus::-webkit-input-placeholder,
+#nombre-fromages:focus::-webkit-input-placeholder,
+#nombre-charcuteries:focus::-webkit-input-placeholder,
+#duree-abonnement:focus::-webkit-input-placeholder {
+color:black;
 }
 
 
 
 #nombre-vins {
-	 border-radius: 0px 5px 0px 0px;
-	 height: 50px;
+	border-radius: 5px 5px 0px 0px;
+	height: 50px;
 }
 
 #nombre-fromages {
-	 border-radius: 0px 0px 0px 0px;
-	 height: 50px;
+	border-radius: 0px 0px 0px 0px;
+	height: 50px;
 }
 
 #nombre-charcuteries {
-	 border-radius: 0px 0px 5px 0px;
-	 height: 50px;
+	border-radius: 0px 0px 5px 5px;
+	height: 50px;
 }
 
 #duree-abonnement {
-	border-radius: 0px 5px 5px 0px;
+	border-radius:5px 5px ;
 	height: 50px;
 }
 
 
-#wine-icon {
-	border-radius: 5px 0 0 0;
-}
 
-#cheese-icon {
-	border-radius: 0 0;
-}
-
-#ham-icon {
-	border-radius: 0 0 0 5px;
-}
 
 
 .je-mabonne {
@@ -219,19 +341,22 @@ h1 {
 	color:black;
 	letter-spacing: 0.3px;
 	height:40px;
-	width:auto;
+	width:150px;
+	margin: 30px 5% 0px 15px;
 }
 
 .j-offre {
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 14px;
 	background-color: #E53935;
 	border:none;
 	font-weight: 600;
 	letter-spacing: 0.3px;
-	height:40px;
-	width:120%;
-	text-align: center;
+	height:45px;
+	width:150px;
+	margin: 30px 45px 0px 5%;
+	display: inline;
+
 }
 
 .texte-debut-2e-page {
@@ -276,29 +401,232 @@ h1 {
 }
 
 .image1 {
-	padding:0;
+	background: url(images/cochon-vache.jpg) center center no-repeat;
+	height:400px;
+	text-align: center; /* ensures the image is always in the h-middle */
 }
 
-.texte-n1 {
+.image2 {
+	background: url(images/plateau.jpg) center center no-repeat;
+	height:400px;
+	text-align: center; /* ensures the image is always in the h-middle */
+}
+
+.image3
+{
+	background: url(images/camembert.jpg) center center no-repeat;
+	height:400px;
+	text-align: center; /* ensures the image is always in the h-middle */
+}
+
+.texte-n1,
+.texte-n2,
+.texte-n3
+{
 	text-align: left;
 	color: #22314D;
 	font-family:'Source Sans Pro';
 	font-weight: 700;
 	font-size: 36px;
 	margin: 0 50px;
+	padding-top:20%;
 }
 
-.sous-texte-n1 {
+.sous-texte-n1,
+.sous-texte-n2,
+.sous-texte-n3
+{
 	color: #8C8A8C;
 	text-align: left;
 	font-family:'Source Sans Pro';
 	font-size: 19px;
 	padding-top: 20px;
 	font-weight: normal;
-	line-height: 35px;
+	line-height: 30px;
 	margin: 0 50px;
 }
 
-.image-texte-1 {
+.texte1,
+.texte2,
+.texte3
+{
 	background-color: #F5F6F7;
+	height : 400px;
+}
+
+.comment-ca-marche {
+	background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 1px, transparent 100%);
+	background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 1px, transparent 100%);
+	background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 1px, transparent 100%);
+	background-image: repeating-radial-gradient(center center, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 1px, transparent 100%);
+	-webkit-background-size: 3px 3px;
+	-moz-background-size: 3px 3px;
+	background-size: 5px 5px;
+	padding-bottom: 75px;
+}
+
+.ccm-titre {
+	text-align: center;
+	color: #22314D;
+	font-family:'Source Sans Pro';
+	font-weight: 700;
+	font-size: 27px;
+	padding: 75px 0 30px 0;
+}
+
+.choix,
+.paiement,
+.reception,
+.apero
+{
+	text-align: center;
+	color: #8C8A8C;
+	font-family:'Source Sans Pro';
+	font-weight: 800;
+	font-size: 17px;
+	padding-bottom:15px;
+}
+
+.choix {
+	padding-bottom:27px;
+}
+
+.colonne-choix-formule,
+.colonne-paiement,
+.colonne-reception,
+.colonne-apero
+{
+	text-align: center;
+}
+
+.colonne-choix-formule {
+	margin: 0 0;
+}
+
+.bandeau-bleu {
+	background-color:#3F618B;
+	text-align: center;
+	padding-bottom: 65px;
+}
+
+.en-route-simone {
+	text-align: center;
+	color: white;
+	font-family:'Source Sans Pro';
+	font-size:32px;
+	font-weight:900;
+	padding-top:40px;
+}
+
+.prenez-lapero {
+	text-align: center;
+	color: white;
+	font-family:'Source Sans Pro';
+	font-size:20px;
+	font-weight:500;
+	line-height:25px;
+	padding-bottom: 15px;
+}
+
+.je-mabonne2 {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 600;
+	background-color: #3F618B;
+	color:white;
+	border-color: white;
+	border-width: 2px;
+	padding: 8px 2%;
+	margin-right: 1%
+}
+
+.je-mabonne2:hover
+{
+	background-color: red;
+}
+
+.j-offre2 {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 600;
+	background-color: red;
+	border-color: red;
+	border-width: 2px;
+	color:white;
+	margin-left: 2%;
+	padding: 8px 3%;
+	margin-right: 2%;
+}
+
+.partie-twitter {
+	background-color: #F5F6F7;
+}
+.titre-twitter {
+	text-align: center;
+	color: #22314D;
+	font-family:'Source Sans Pro';
+	font-weight: 700;
+	font-size: 30px;
+	padding-top : 70px;
+	padding-right: 0px;
+}
+
+.sous-titre-twitter {
+	color: #8C8A8C;
+	text-align: center;
+	font-family:'Source Sans Pro';
+	font-size: 19px;
+	padding-bottom: 50px;
+	font-weight: normal;
+	line-height: 25px;
+}
+
+.icons8-Left {
+	margin-left: 22%;
+	margin-right: 48%;
+}
+
+#contenu-avis-client {
+	text-align: center;
+	color: #22314D;
+	font-family:'Source Sans Pro';
+	font-weight: 500;
+	font-size: 19px;
+	margin-top: -50px;
+}
+
+.origine-avis-client {
+	text-align: center;
+	color: #22314D;
+	font-family:'Source Sans Pro';
+	font-weight: 700;
+	font-size: 15px;
+	margin-top: -15px;
+}
+
+
+.footer {
+	background-color: #233D5D;
+}
+
+.CGV,
+#heure,
+.CGVIL,
+.legal
+{
+	font-family:'Source Sans Pro';
+	color:white;
+	font-size:15px;
+	padding-top:20px;
+}
+
+.colonne-CGV,
+.colonne-apero,
+.colonne-logos {
+	text-align: center;
+	margin: 0 0;
+}
+
+.colonne-logos {
+	padding-top:10px;
 }
