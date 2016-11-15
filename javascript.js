@@ -5,7 +5,7 @@ $(document).ready(function(){
     $(".resultats-page-initiale").css("z-index","1");
     $(".resultats-nombre-fromages").css("z-index","1");
     $(".resultats-nombre-charcuteries").css("z-index","1");
-    $(".resultats-durjhee-abonnement").css("z-index","1");
+    $(".resultats-duree-abonnement").css("z-index","1");
   });
 
   $("#nombre-fromages, .bouton-vin-0, .bouton-vin-1, .bouton-vin-2, .bouton-vin-3").click(function()  {

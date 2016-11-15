@@ -35,24 +35,31 @@
 	text-align: center;
 }
 
+.btn-creer-compte:hover,
+.btn-se-connecter:hover {
+	background-color: #019D86;
+}
+
 .je-mabonne {
 	text-transform: uppercase;
 	font-size: 13px;
 	font-weight: 600;
 	width : 110%;
-	background-color: none;
 	color:black;
 	border-color: #01C3A7;
 	border-width: 2px;
+
 }
 
-.btn-creer-compte:hover,
-.btn-se-connecter:hover,
-.je-mabonne:hover,
-.j-offre:hover
-{
+.je-mabonne:hover {
 	background-color: #019D86;
+	border-color: #019D86;
+	border-width: 2px;
+
 }
+
+
+.j-offre:hover
 
 h1 {
 	text-align: center;
