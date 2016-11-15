@@ -166,21 +166,6 @@ $(document).ready(function(){
 
 
 
-  $("#nombre-fromages .bouton-vin-0, .bouton-vin-1, .bouton-vin-2, .bouton-vin-3").on({
-    focus:function(){
-      $("#nombre-fromages").addClass('focused1');
-    },
-    focus::-webkit-input-placeholder:function(){
-      $("#nombre-fromages").addClass('focused2');
-    }
-
-  }
-
-
-
-
-
-
 
 
 
